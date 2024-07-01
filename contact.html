@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Paradigm Pet Professionals</title>
+	<link rel="stylesheet" href="styles.css">
+  </head>
+  <body link="#0000EE" vlink="#551A8B" text="#000000" bgcolor="#6699CC"
+    alink="#EE0000">
+    <h1>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </h1>
+    <img class="img.pet" src="appt.jpg" alt="cat picture" height="200" width="300">
+    <h1>Schedule an appointment for a consultation</h1>
+	<hr width="100%" size="2"> <br>
+    <div class="topnav">
+        <a href="home.html">Home</a>
+        <div class="dropdown">
+            <a href="#petinformation" class="dropbtn">Pet Information &#9662;</a>
+            <div class="dropdown-content">
+                <a href="cats.html">Cats</a>
+                <a href="dogs.html">Dogs</a>
+                <a href="fish.html">Fish</a>
+            </div>
+        </div>
+                <a class="active" href="contact.html">Schedule a Consultation</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="faqs.html">FAQs</a>
+        <div class="search-container">
+            <input type="text" placeholder="Find something...">
+            <button type="submit">Search</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <img src="animals.jpg" alt="person in lab coat with animals"
+                    style="float: right; width: 550px; margin-right: 10px;">
+            <br>
+            <div class="fs-2 lead" style="color: #003B6D;">Contact our Pexperts by using the form below to schedule a
+                appointment.</div>
+            <div class="fs-6 lead" style="color: #003B6D;">For company contact details, please visit our
+                <a href="aboutus.html" class="customLink" target="_blank">About Us</a> page.
+            </div>
+            <br>
+            <br>
+            <form class="row g-5 align-items-center" id="formContact">
+                <div class="col-md-6">
+                    <label for="firstName" class="form-label" id="firstName">First Name</label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                        required>
+                </div>
+                <div class="col-md-6">
+                    <label for="lastName" class="form-label" id="lastName">Last Name</label>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputEmail1" class="form-label" id="email1">Email</label>
+                    <input type="email" class="form-control" placeholder="name@example.com"
+                        aria-label="Email Address" required></label>
+                </div>
+                <div class="col-md-3">
+                    <label for="phoneNumber" class="form-label" id="phoneNumber">Phone Number</label>
+                    <input type="tel" class="form-control" placeholder="(###) ###-####" aria-label="Phone Number"
+                        pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required></label>
+                </div>
+                <div class="col-md">
+                    <label for="timezone" class="form-label">Timezone</label>
+                    <select id="timezone" class="form-select" placeholder="Timezone" aria-label="Timezone" required>
+                        <option selected>...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="petName" class="form-label">Pet Name</label>
+                    <input type="text" class="form-control" id="petName" placeholder="Pet Name"
+                        aria-label="Pet Name" required>
+                </div>
+                <div class="col-md-3">
+                    <label for="petAge" class="form-label">Pet Age</label>
+                    <input type="number" class="form-control" id="petAge" placeholder="..." aria-label="Pet Age"
+                        min="0" max="99" required>
+                </div>
+                <div class="col-md-3">
+                    <label for="petType" class="form-label">Pet Type</label>
+                    <select id="petType" class="form-select" placeholder="Pet Type" aria-label="Pet Type" required>
+                        <option selected>...</option>
+                        <option>Cat</option>
+                        <option>Dog</option>
+                        <option>Fish</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="col-md-12">
+                    <label for="formComments" class="form-label">Any additional information we need to know</label>
+                    <textarea class="form-control" id="formComments"
+                        placeholder="Questions, comments, concerns, etc."
+                        aria-label="Questions, comments, concerns, etc."></textarea>
+            
+                </div>
+                <div class="col">
+                    <button type="submit" class="btn btn-primary" placeholder="Submit"
+                        aria-label="Submit">Submit</button>
+                
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<footer>
+    <div class="footer-content">
+        <a href="home.html">
+            <img src="ppp.png" alt="logo" class="footer-logo" height="75" width="125">
+        </a>
+        <p>&copy; 2024 Paradigm Pet Professionals. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#privacy-policy">Privacy Policy</a></li>
+            <li><a href="#terms-of-service">Terms of Service</a></li>
+            <li><a href="aboutus.html">Contact Us</a></li>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+
+</html>
